@@ -1,0 +1,136 @@
+/* Estilos del formulario */
+.contact_form {  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  color: #FFFFFF; /* Texto blanco */
+  padding-left: 30px;
+  position: relative; /* Para posicionar el overlay */
+  overflow: hidden; /* Para asegurarse de que el overlay cubra completamente el contenedor */
+}
+
+.contact_form:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('bufete.jpg'); /* Imagen de fondo */
+  background-size: cover; /* Ajustamos el tamaño de la imagen para cubrir todo el contenedor */
+  z-index: -1;
+  opacity: 0.5; /* Opacidad para reducir el brillo de la imagen */
+}
+
+/* Estilos del contenido fuera del formulario */
+body {
+  background-color: #000000; /* Fondo negro */
+  color: #FFFFFF; /* Texto blanco */
+}
+
+/* Resto de tus estilos aquí */
+
+input{
+  background-color:#FFFFFF; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #5d2417; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+textarea{
+  background-color: #0000; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #320000; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+label{
+  display: block; 
+  float: center;  
+}
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #5d2417; 
+  border-color: #5d2417; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+button p{
+  color: #fff; 
+}
+
+span{
+  color: #FFFFFF; 
+}
+
+.aviso{
+  font-size: 13px;  
+  color: #fff;  
+}
+
+h1 {
+  font-size: 39px;  
+  text-align: left; /* Corregí el valor de la alineación */
+  padding-bottom: 20px; 
+  color: #fff;
+  text-shadow: 2px 2px 4px #000; /* Contorno en negrita */
+}
+
+h3 {
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000; /* Contorno en negrita */
+  text-align: left; /* Alineación a la izquierda */
+}
+p{
+  font-size: 14px; 
+  color: #fff; 
+   text-shadow: 1px 1px 2px #000; /* Contorno en negrita */
+}
+
+::-webkit-input-placeholder {
+ color: #fff;
+}
+
+::-webkit-textarea-placeholder {
+ color: #fff;
+}
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #000;
+}
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #fff;
+}
+
+/* Estilos de la página web */
+/* Añade aquí los estilos de la página web que deseas aplicar al formulario */

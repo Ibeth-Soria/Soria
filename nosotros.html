@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nosotros - Soria y Asociados</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Custom Stylesheet -->
+    <style>
+        /* Importación de fuentes de Google Fonts */ 
+        @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+        /* Estilos generales */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #000000; /* Fondo negro */
+            color: #FFFFFF; /* Texto blanco */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para el contenedor principal */
+        .container {
+            position: relative; /* Necesario para el overlay */
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            margin-top: 30px;
+            background-image: url('nosotros.jpg'); /* Imagen de fondo */
+            background-size: cover; /* Ajustamos el tamaño de la imagen para cubrir todo el contenedor */
+            overflow: hidden; /* Para asegurarse de que el overlay cubra completamente el contenedor */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Overlay negro semi-transparente */
+            z-index: 1;
+        }
+
+        .content {
+            position: relative; /* Para posicionar el contenido sobre el overlay */
+            z-index: 2;
+            padding: 20px;
+        }
+
+        /* Estilos para los encabezados */
+        h1 {
+            font-size: 32px;
+            color: #FFFFFF; /* Blanco */
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px #000; /* Contorno en negrita */
+        }
+
+        /* Estilos para los párrafos */
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #FFFFFF; /* Blanco */
+            text-shadow: 1px 1px 2px #000; /* Contorno en negrita */
+        }
+
+        /* Estilos específicos para el encabezado */
+        .header {
+            background-color: #343a40;
+            color: #FFFFFF; /* Blanco */
+            padding: 10px;
+        }
+
+        .header a {
+            color: #FFFFFF; /* Blanco */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="header">
+                <h1>Nosotros - Soria y Asociados</h1>
+            </div>
+            <p>Soria y Asociados es un bufete de abogados comprometido con la excelencia y la defensa de los derechos de nuestros clientes. Con más de 20 años de experiencia, nuestro equipo de abogados expertos ofrece servicios legales integrales en una amplia gama de áreas, incluyendo derecho corporativo, derecho laboral, derecho civil y más.</p>
+            <p>Nuestra misión es proporcionar asesoramiento legal de calidad, adaptado a las necesidades específicas de cada cliente, y defender sus intereses con integridad y profesionalismo. Valoramos la confianza que nuestros clientes depositan en nosotros y nos esforzamos por superar sus expectativas en cada caso que llevamos.</p>
+            <p>En Soria y Asociados, creemos en la importancia de la ética profesional, la transparencia y la comunicación abierta con nuestros clientes. Nos dedicamos a proporcionar soluciones legales efectivas y orientadas a resultados, con un enfoque centrado en el cliente y un compromiso absoluto con la justicia.</p>
+        </div>
+    </div>
+
+    <!-- Bibliotecas de JavaScript y otros archivos -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
